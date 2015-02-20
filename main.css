@@ -2,35 +2,33 @@ body {
     background: #fff8f0;
     font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     color: #222222;
+    font-size: 16px;
+    line-height: 22px;
 }
-
-
 header, main {
     width: 960px;
     margin:auto;
-
 }
 header {
     font-family: 'Playball', cursive;
     font-size: 56px;
+    line-height: 68px;
     margin-bottom: 40px;
 }
 header div {
     margin-left: 45px;
 }
-
 h2 {
     margin: 0;
 }
-
-
 aside {
-    width: 30%;
+    width: 28%;
     border-right: 1px solid #bbbbbb;
     padding-right: 15px;
     text-align: right;
     display: inline-block;
     vertical-align: top;
+    margin-left: 8%;
 }
 aside h2 {
     text-align: right;
@@ -38,18 +36,24 @@ aside h2 {
 aside div {
     font-family: 'Playball', cursive;
     font-size: 46px;
+    line-height: 50px;
 }
 aside ul {
     list-style-type: none;
 }
-aside address {
+address {
     font-style: normal;
+}
+address ul {
+    margin-bottom: 0;
+}
+address li {
+    margin: 5px 0;
 }
 aside a {
     text-decoration: none;
     color: #222222;
 }
-
 section {
     display: inline-block;
     width: 40%;
@@ -58,26 +62,42 @@ section {
     padding-left: 15px;
     margin-left: 5%;
 }
-
-
-#skillschart {
+dd {
+    margin: 0 0 25px 0;
+    font-size: 12px;
+    line-height: 20px;
+}
+dt span {
+    font-size: 12px;
+    display:inline-block;
+    margin-left: 10px;
+}
+#morejobs {
+    font-size: 12px;
     list-style-type: none;
-    margin: 10px 0;
     padding: 0;
+    margin-bottom: 25px;
 }
-#skillschart li {
-    margin: 5px 0;
-    background: #ffffff;
-    border-top: 1px solid #dddddd;
-    border-left: 1px solid #dddddd;
+#technicalskills {
+    margin-bottom: 0;
 }
-#skillschart span {
-    background: #222222;
-    color: #fff8f0;
+#technicalskills ul {
+    margin: 0;
+    list-style-type: none;
+}
+#technicalskills dt {
     display: inline-block;
+    width: 20%;
+    vertical-align: middle;
+    margin-bottom: 20px;
+    text-align: right;
 }
-#skillschart strong {
-    font-weight: normal;
-    padding: 3px;
-    display: block;
+#technicalskills dd {
+    display: inline-block;
+    width: 70%;
+    vertical-align: middle;
+    margin-bottom: 20px;
+}
+#technicalskills dt:last-child, #technicalskills dd:last-child {
+    margin-bottom: 0px;
 }
