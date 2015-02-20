@@ -24,7 +24,6 @@ h2 {
 }
 aside {
     width: 28%;
-    border-right: 1px solid #bbbbbb;
     padding-right: 15px;
     text-align: right;
     display: inline-block;
@@ -60,8 +59,8 @@ section {
     width: 40%;
     vertical-align: top;
     border-left: 1px solid #bbbbbb;
-    padding-left: 15px;
-    margin-left: 5%;
+    padding-left: 3%;
+    margin-left: 1%;
 }
 dd {
     margin: 0 0 25px 0;
