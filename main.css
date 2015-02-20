@@ -4,6 +4,7 @@ body {
     color: #222222;
     font-size: 16px;
     line-height: 22px;
+    margin-top: 50px;
 }
 header, main {
     width: 960px;
@@ -98,6 +99,9 @@ dt span {
     vertical-align: middle;
     margin-bottom: 20px;
 }
-#technicalskills dt:last-child, #technicalskills dd:last-child {
-    margin-bottom: 0px;
+#educationlist {
+    margin-bottom: 0;
+}
+#educationlist dd:last-child {
+    margin-bottom: 0;
 }
