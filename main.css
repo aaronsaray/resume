@@ -15,7 +15,7 @@ header {
     font-family: 'Playball', cursive;
     font-size: 56px;
     line-height: 68px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 header div {
     margin-left: 45px;
@@ -64,7 +64,7 @@ section {
     margin-left: 1%;
 }
 dd {
-    margin: 0 0 17px 0;
+    margin: 0 0 15px 0;
     font-size: 12px;
     line-height: 20px;
 }
@@ -97,11 +97,11 @@ dt span {
     display: inline-block;
     width: 70%;
     vertical-align: middle;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 #educationlist {
     margin-bottom: 0;
 }
 #educationlist dd:last-child {
-    margin-bottom: 0;
+    margin-bottom: 10px;
 }
