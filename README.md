@@ -1,4 +1,6 @@
-# Official Resume of Aaron Saray
+# [Outdated] Official Resume of Aaron Saray
+
+*Please note: I am not looking for any opportunites at this time - so this is out of date and does not reflect my current resume.  Please see [aaronsaray.com](https://aaronsaray.com) for more.*
 
 Check out the PDF Release at Resume of Aaron Saray.pdf above.
 
