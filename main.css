@@ -119,13 +119,16 @@ aside .fa-folder-open {
   color: #feca6d;
 }
 aside .fa-link {
-  color: #6699ff;
+  color: #38c345;
 }
 aside .fa-envelope {
   color: #e9cb1b;
 }
 aside .fa-linkedin {
   color: #1177b3;
+}
+aside .fa-twitter {
+  color: #1da1f2;
 }
 aside .fa-codepen {
   color: #e3e3e3;
@@ -152,8 +155,14 @@ aside .fa-codepen {
   font-size: 15px;
   line-height: 1.4;
 }
-.resume p:first-child {
-  margin-top: 0;
+.resume blockquote {
+  color: #999999;
+  margin: 0 0 0 18px;
+}
+.resume blockquote:before {
+  content: "\003E";
+  float: left;
+  margin-left: -15px;
 }
 .resume h2,
 .resume h3 {
@@ -168,4 +177,18 @@ aside .fa-codepen {
 }
 .resume small {
   color: #999999;
+}
+
+.position-details {
+  margin: 0 0 0 32px;
+  padding: 0;
+  list-style: none;
+}
+.position-details li {
+  padding: 3px 0;
+}
+.position-details li:before {
+  content: "*";
+  float: left;
+  margin: 3px 0 0 -20px;
 }
