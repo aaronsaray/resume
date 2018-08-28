@@ -1,0 +1,129 @@
+html {
+  height: 100%;
+  background: #feffff;
+  background: -moz-linear-gradient(
+    -45deg,
+    #feffff 0%,
+    #ddf1f9 86%,
+    #a0d8ef 100%
+  );
+  background: -webkit-linear-gradient(
+    -45deg,
+    #feffff 0%,
+    #ddf1f9 86%,
+    #a0d8ef 100%
+  );
+  background: linear-gradient(135deg, #feffff 0%, #ddf1f9 86%, #a0d8ef 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#a0d8ef',GradientType=1 );
+}
+@media print {
+  html {
+    background: #ffffff;
+  }
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Helvetica Neue";
+}
+main {
+  width: 1000px;
+  margin: 20px auto;
+  box-shadow: 4px 4px 35px -5px rgba(0, 0, 0, 0.75);
+}
+@media print {
+  main {
+    margin: 0;
+    box-shadow: none;
+  }
+}
+
+header {
+  background: #34353a;
+  color: #8c8c8c;
+  padding: 8px;
+  font-size: 12px;
+}
+header a {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #fdbc3f;
+  float: left;
+  margin-right: 7px;
+}
+header a:first-of-type {
+  background-color: #fc635d;
+}
+header a:last-of-type {
+  background-color: #34c749;
+}
+header > div {
+  text-align: center;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+header span {
+  font-weight: bold;
+}
+
+main > section {
+  background: #1d1d1d;
+  height: 500px;
+}
+
+aside {
+  color: #cccccc;
+  background: #252526;
+  width: 300px;
+  height: 100%;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue";
+}
+aside a {
+  color: #cccccc;
+  text-decoration: none;
+}
+aside h1 {
+  margin: 0;
+  padding: 5px;
+  font-size: 18px;
+  background: #383838;
+  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+  text-transform: uppercase;
+}
+aside h1 i {
+  font-size: 14px;
+}
+aside i {
+  margin: 0 8px;
+  font-size: 12px;
+}
+aside ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+aside ul ul {
+  margin-left: 20px;
+}
+aside li {
+  padding: 4px;
+}
+aside > ul > li {
+  padding-bottom: 0;
+}
+aside .fa-folder-open {
+  color: #feca6d;
+}
+aside .fa-link {
+  color: #6699ff;
+}
+aside .fa-envelope {
+  color: #e9cb1b;
+}
+aside .fa-linkedin {
+  color: #1177b3;
+}
+aside .fa-codepen {
+  color: #e3e3e3;
+}
