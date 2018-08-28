@@ -15,6 +15,7 @@ html {
   );
   background: linear-gradient(135deg, #feffff 0%, #ddf1f9 86%, #a0d8ef 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#a0d8ef',GradientType=1 );
+  background-attachment: fixed;
 }
 @media print {
   html {
@@ -203,16 +204,23 @@ aside .fa-docker {
   color: #999999;
 }
 
-.position-details {
+.resume-details {
   margin: 0 0 0 32px;
   padding: 0;
   list-style: none;
 }
-.position-details li {
+.resume-details li {
   padding: 3px 0;
 }
-.position-details li:before {
+.resume-details li:before {
   content: "*";
   float: left;
   margin: 3px 0 0 -20px;
+}
+
+footer {
+  color: #eeeeee;
+  background: #599dce;
+  font-size: 12px;
+  padding: 4px 8px;
 }
