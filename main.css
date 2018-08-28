@@ -133,6 +133,30 @@ aside .fa-twitter {
 aside .fa-codepen {
   color: #e3e3e3;
 }
+aside .fa-laravel {
+  color: #f66c5a;
+}
+aside .fa-php {
+  color: #8892bf;
+}
+aside .fa-react {
+  color: #61dafb;
+}
+aside .fa-node-js {
+  color: #689f63;
+}
+aside .fa-js {
+  color: #f0db4f;
+}
+aside .fa-html5 {
+  color: #e44d26;
+}
+aside .fa-css3-alt {
+  color: #264de4;
+}
+aside .fa-docker {
+  color: #0091e2;
+}
 
 .editor {
   width: 750px;
