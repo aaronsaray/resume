@@ -93,9 +93,18 @@ aside h1 {
   background: #383838;
   font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
   text-transform: uppercase;
+  letter-spacing: 1px;
 }
 aside h1 i {
   font-size: 14px;
+}
+.fa-sort-down {
+  position: relative;
+  top: -4px;
+}
+.fa-user {
+  position: relative;
+  top: -2px;
 }
 aside i {
   margin: 0 8px;
@@ -158,9 +167,25 @@ aside .fa-css3-alt {
 aside .fa-docker {
   color: #0091e2;
 }
+aside .fa-book {
+  color: #826565;
+}
+aside .fa-comment-alt {
+  color: #dac15f;
+}
+aside .fa-wordpress {
+  color: #0087be;
+}
+aside .fa-google {
+  color: #ea4335;
+}
+aside .fa-certificate {
+  color: #f53b3b;
+}
 
 .editor {
   width: 750px;
+  height: 1243px;
 }
 
 .file-tabs {
@@ -222,5 +247,8 @@ footer {
   color: #eeeeee;
   background: #599dce;
   font-size: 12px;
-  padding: 4px 8px;
+  padding: 3px 0;
+}
+footer i {
+  margin: 0 8px;
 }
