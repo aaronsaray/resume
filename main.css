@@ -53,6 +53,9 @@ header a {
   background-color: #fdbc3f;
   float: left;
   margin-right: 7px;
+  -webkit-box-shadow: inset 0px 0px 3px 1px rgba(0, 0, 0, 0.29);
+  -moz-box-shadow: inset 0px 0px 3px 1px rgba(0, 0, 0, 0.29);
+  box-shadow: inset 0px 0px 3px 1px rgba(0, 0, 0, 0.29);
 }
 header a:first-of-type {
   background-color: #fc635d;
