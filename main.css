@@ -80,7 +80,7 @@ main > section {
 aside {
   color: #cccccc;
   background: #252526;
-  width: 250px;
+  width: 255px;
   display: block;
   font-family: "HelveticaNeue-Light", "Helvetica Neue";
   font-size: 16px;
@@ -187,7 +187,7 @@ aside .fa-certificate {
 }
 
 .editor {
-  width: 750px;
+  width: 745px;
   height: 1243px;
 }
 
